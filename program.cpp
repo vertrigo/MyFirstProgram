@@ -3,12 +3,10 @@
 #include "stdafx.h"
 #include <cstdlib>
 #include <iostream>
-#include <string>
 #include <gcroot.h>
 #include "program.h"
 #include "table.h"
 #include "Form1.h"
-#include <windows.h>
 
 using namespace prog;
 using namespace program;

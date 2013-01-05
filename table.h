@@ -43,6 +43,8 @@ namespace prog {
 	private: System::Windows::Forms::DataGridViewTextBoxColumn^  Column5;
 	private: System::Windows::Forms::DataGridViewTextBoxColumn^  Column6;
 
+
+
 	protected: 
 
 
@@ -133,7 +135,7 @@ namespace prog {
 				node *temp = work->getHead();
 				while (temp != NULL)
 				{
-					dataGridView1->Rows->Add(temp->fields.name,temp->fields.fam,temp->fields.group,temp->fields.year,temp->fields.rating,temp->fields.phone);
+					dataGridView1->Rows->Add(temp->fields.name, temp->fields.fam, temp->fields.group, temp->fields.year, temp->fields.rating, temp->fields.phone);
 					temp = temp->Next;
 				}
 			}
